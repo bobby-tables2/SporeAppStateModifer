@@ -2,16 +2,16 @@
 
 #include <Spore\BasicIncludes.h>
 
-class AliasList 
+class EnterState
 	: public ArgScript::ICommand
 {
 public:
-	AliasList();
-	~AliasList();
+	EnterState();
+	~EnterState();
 
 	// Called when the cheat is invoked
 	void ParseLine(const ArgScript::Line& line) override;
-	
+
 	// Returns a string containing the description. If mode != DescriptionMode::Basic, return a more elaborated description
 	const char* GetDescription(ArgScript::DescriptionMode mode) const override;
 };

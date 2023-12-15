@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{07FC5B61-B575-4207-B464-AFAE6AF3FC19}</ProjectGuid>
+    <ProjectGuid>{69A333B1-4F2F-4F54-AE3D-864D7ED12C4E}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>State_Switcher</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
@@ -20,13 +20,13 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -106,6 +106,8 @@
       <SubType>
       </SubType>
     </ClInclude>
+    <ClInclude Include="EnterMode.h" />
+    <ClInclude Include="EnterState.h" />
     <ClInclude Include="MyCheat.h">
       <SubType>
       </SubType>
@@ -130,6 +132,8 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="EnterMode.cpp" />
+    <ClCompile Include="EnterState.cpp" />
     <ClCompile Include="MyCheat.cpp">
       <SubType>
       </SubType>

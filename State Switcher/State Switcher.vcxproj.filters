@@ -28,6 +28,8 @@
     <ClInclude Include="AliasList.h">
       <Filter>State Switcher</Filter>
     </ClInclude>
+    <ClInclude Include="EnterState.h" />
+    <ClInclude Include="EnterMode.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
@@ -45,6 +47,8 @@
     <ClCompile Include="AliasList.cpp">
       <Filter>State Switcher</Filter>
     </ClCompile>
+    <ClCompile Include="EnterState.cpp" />
+    <ClCompile Include="EnterMode.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="SdkPathConfig.props" />

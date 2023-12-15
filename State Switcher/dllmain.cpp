@@ -3,6 +3,8 @@
 #include "MyCheat.h"
 #include "EditCreation.h"
 #include "AliasList.h"
+#include "EnterState.h"
+#include "EnterMode.h"
 
 void Initialize()
 {
@@ -16,6 +18,8 @@ void Initialize()
 	CheatManager.AddCheat("entereditor", new MyCheat());
 	CheatManager.AddCheat("editcreation", new EditCreation());
 	CheatManager.AddCheat("aliasList", new AliasList());
+	CheatManager.AddCheat("enterstate", new EnterState());
+	CheatManager.AddCheat("entermode", new EnterMode());
 }
 
 void Dispose()
